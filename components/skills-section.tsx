@@ -171,12 +171,6 @@ export function SkillsSection() {
                   </div>
 
                   {/* XP Bar */}
-                  <div className="mb-1.5 flex justify-between font-mono text-xs text-muted-foreground">
-                    <span>XP</span>
-                    <span>
-                      {skill.xp}/{skill.maxXp}
-                    </span>
-                  </div>
                   <div className="h-2 overflow-hidden rounded-full bg-secondary">
                     <div
                       className="h-full rounded-full bg-primary transition-all duration-1000 ease-out"
